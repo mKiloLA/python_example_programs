@@ -11,7 +11,6 @@ def largest_element(a):
         if a[i] > maxval:
             maxval = a[i]
             loc = i
-
     return maxval, loc
 
 
